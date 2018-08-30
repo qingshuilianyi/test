@@ -1,0 +1,8 @@
+server:
+    port:20001
+eureka:
+    instance:
+        hostname:server2
+    client:
+        serverUrl:
+            defaultZone:http://server1:20000/eureka/
