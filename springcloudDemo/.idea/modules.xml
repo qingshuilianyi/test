@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient/eurekaClient.iml" filepath="$PROJECT_DIR$/eurekaClient/eurekaClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient1/eurekaClient1.iml" filepath="$PROJECT_DIR$/eurekaClient1/eurekaClient1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient2/eurekaClient2.iml" filepath="$PROJECT_DIR$/eurekaClient2/eurekaClient2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient3/eurekaClient3.iml" filepath="$PROJECT_DIR$/eurekaClient3/eurekaClient3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaFeignConsumer/eurekaFeignConsumer.iml" filepath="$PROJECT_DIR$/eurekaFeignConsumer/eurekaFeignConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaProvider/eurekaProvider.iml" filepath="$PROJECT_DIR$/eurekaProvider/eurekaProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaProvider1/eurekaProvider1.iml" filepath="$PROJECT_DIR$/eurekaProvider1/eurekaProvider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaRibbonConsumer/eurekaRibbonConsumer.iml" filepath="$PROJECT_DIR$/eurekaRibbonConsumer/eurekaRibbonConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudDemo.iml" filepath="$PROJECT_DIR$/springcloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudzuul/springcloudzuul.iml" filepath="$PROJECT_DIR$/springcloudzuul/springcloudzuul.iml" />

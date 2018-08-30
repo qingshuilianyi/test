@@ -6,21 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="eurekaClient" />
-        <module name="eurekaClient1" />
-        <module name="eurekaClient2" />
-        <module name="eurekaClient3" />
+        <module name="eurekaFeignConsumer" />
+        <module name="eurekaProvider" />
+        <module name="eurekaProvider1" />
+        <module name="eurekaRibbonConsumer" />
         <module name="eurekaServer" />
         <module name="springcloudzuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.7" />
-      <module name="eurekaClient" target="1.7" />
-      <module name="eurekaClient1" target="1.7" />
-      <module name="eurekaClient2" target="1.7" />
-      <module name="eurekaClient3" target="1.7" />
+      <module name="eurekaFeignConsumer" target="1.7" />
+      <module name="eurekaProvider" target="1.7" />
+      <module name="eurekaProvider1" target="1.7" />
+      <module name="eurekaRibbonConsumer" target="1.7" />
       <module name="eurekaServer" target="1.7" />
       <module name="springcloudzuul" target="1.7" />
     </bytecodeTargetLevel>

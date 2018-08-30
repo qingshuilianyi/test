@@ -75,17 +75,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,7 +144,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="445" />
     <option name="y" value="-16" />
     <option name="width" value="1400" />
@@ -189,7 +179,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535619124487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535620760235" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -207,6 +197,53 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ZuulApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="eurekaRibbonConsumer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="eurekaRibbonConsumer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -223,7 +260,7 @@
       </method>
     </configuration>
     <configuration name="EurekaClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaClient1" />
+      <module name="eurekaProvider1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eurekaclient.*" />
@@ -236,7 +273,7 @@
       </method>
     </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaClient" />
+      <module name="eurekaProvider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eurekaclient.*" />
@@ -249,7 +286,7 @@
       </method>
     </configuration>
     <configuration name="FeignEurekaConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eurekaClient3" />
+      <module name="eurekaFeignConsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eurekaclient3.demo.EurekaConsumer2Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -257,7 +294,7 @@
       </method>
     </configuration>
     <configuration name="RibbonEurekaConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eurekaClient2" />
+      <module name="eurekaRibbonConsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eurekaclient2.EurekaConsumerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -327,12 +364,12 @@
       <workItem from="1534917354277" duration="1176000" />
       <workItem from="1534918623319" duration="3081000" />
       <workItem from="1534922273739" duration="30552000" />
-      <workItem from="1535434734398" duration="5528000" />
+      <workItem from="1535434734398" duration="6479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40337000" />
+    <option name="totallyTimeSpent" value="41288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,8 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8009331" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" sideWeight="0.19906688" side_tool="true" visible="true" weight="0.19616205" />
@@ -414,17 +450,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/test/java/com/eurekaclient2/DemoApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/test/java/com/eurekaclient2/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -438,10 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
@@ -462,35 +498,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/java/com/eurekaclient3/demo/HelloServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/java/com/eurekaclient3/demo/HelloServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
@@ -514,52 +550,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/java/com/eurekaclient3/demo/EurekaConsumer2Application.java">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/java/com/eurekaclient3/demo/EurekaConsumer2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/java/com/eurekaclient3/demo/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/java/com/eurekaclient3/demo/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient3/src/main/java/com/eurekaclient3/demo/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/eurekaFeignConsumer/src/main/java/com/eurekaclient3/demo/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient1/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/main/java/com/eurekaclient2/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/main/java/com/eurekaclient2/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/main/java/com/eurekaclient2/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/main/java/com/eurekaclient2/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="44" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,7 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient2/src/main/java/com/eurekaclient2/EurekaConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/eurekaRibbonConsumer/src/main/java/com/eurekaclient2/EurekaConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
@@ -615,7 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient/src/main/java/com/eurekaclient/EurekaClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider/src/main/java/com/eurekaclient/EurekaClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -632,7 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClient1/src/main/java/com/eurekaclient/EurekaClient1Application.java">
+    <entry file="file://$PROJECT_DIR$/eurekaProvider1/src/main/java/com/eurekaclient/EurekaClient1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
@@ -645,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="420">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaClient" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaClient1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaClient2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaClient3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaFeignConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaProvider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaProvider1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaRibbonConsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudzuul" charset="UTF-8" />
   </component>
