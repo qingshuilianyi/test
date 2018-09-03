@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2018年8月3日 下午2:04:14                                                        
+
+     project    
+     description
+                   
+     Simon.Hoo                                                                
+     ====================================================================== -->
+<project basedir="." name="dubbo-admin" default="default">
+    <description>
+            description
+    </description>
+	<property name="classes" value="build/classes"></property>
+	<property name="build" value="build"></property>
+	<property name="lib" value="dubbo-admin/Libraries"></property>
+	
+	<target name="clean">
+		<delete dir="build"></delete>
+	</target>
+	
+	<target name="compile" depends="clean">
+		<mkdir dir="${classes}"/>
+		<javac srcdir="src" destdir="${classes}"></javac>
+	</target>
+	
+	<target name="war" depends="compile">
+		<war destfile="${build}/dubbo-admin.war" webxml="dubbo-admin/WEB-INF/web.xml">
+			<fileset></fileset>
+			<lib dir="${lib}"></lib>
+			<classes dir="${classes}"></classes>
+		</war>
+	</target>
+	
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="description">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
